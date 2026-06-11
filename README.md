@@ -1,26 +1,59 @@
-\# Microsoft Sentinel Threat Hunting Lab
+# Microsoft Sentinel Threat Hunting Lab
 
+> **Repo status:** Infrastructure & configuration documentation — actively evolving into a full detection engineering and SOC investigation lab.
 
+## Overview
 
-\## Overview
+This project documents the end-to-end build-out of a Microsoft Sentinel SOC environment on Azure. The current phase focuses on infrastructure provisioning and baseline configuration. Upcoming phases will introduce KQL-based detection rules, custom analytic rules, threat hunting playbooks, and simulated SOC investigations.
 
-This project documents the setup and configuration of a Microsoft Sentinel SOC environment using Azure.
+## Environment
 
+| Component | Status |
+|---|---|
+| Azure Resource Group | ✅ Provisioned |
+| Log Analytics Workspace | ✅ Configured |
+| Microsoft Sentinel | ✅ Enabled |
+| Microsoft Defender XDR | ✅ Connected |
+| Data Connectors & Ingestion | 🔄 In progress |
+| Detection Rules (Analytic Rules) | 🔜 Upcoming |
+| Threat Hunting Queries (KQL) | 🔜 Upcoming |
+| SOC Investigation Playbooks | 🔜 Upcoming |
 
+## Roadmap
 
-\## Status
+### Phase 1 — Infrastructure (Current)
+- [x] Azure Resource Group created
+- [x] Log Analytics Workspace configured
+- [x] Microsoft Sentinel enabled
+- [x] Microsoft Defender XDR connected
+- [ ] Data ingestion pipelines configured
+- [ ] Log sources validated and normalised
 
-\- Azure Resource Group created
+### Phase 2 — Detection Engineering (Upcoming)
+- [ ] Custom KQL analytic rules
+- [ ] MITRE ATT&CK–mapped detections
+- [ ] Alert tuning and false-positive reduction
+- [ ] Watchlists and threat intelligence integration
 
-\- Log Analytics Workspace configured
+### Phase 3 — SOC Investigation Simulation (Upcoming)
+- [ ] Simulated attack scenarios (e.g. lateral movement, credential access)
+- [ ] End-to-end incident investigation walkthroughs
+- [ ] Automated response playbooks (Logic Apps / SOAR)
+- [ ] Metrics and detection coverage reporting
 
-\- Microsoft Sentinel enabled
+## Tech Stack
 
-\- Microsoft Defender XDR connected
+- **SIEM:** Microsoft Sentinel
+- **Cloud:** Microsoft Azure
+- **XDR:** Microsoft Defender XDR
+- **Query Language:** KQL (Kusto Query Language)
+- **Automation:** Azure Logic Apps
+- **Frameworks:** MITRE ATT&CK
 
+## Purpose
 
+This lab demonstrates practical SOC engineering skills including detection rule development, threat hunting, and incident investigation using Microsoft Sentinel and Microsoft Defender XDR in a cloud-native environment. Each phase is documented with configuration notes, rationale, and lessons learned — with SOAR automation and MITRE ATT&CK coverage built in throughout.
 
-\## Current Phase
+---
 
-Setting up data ingestion and SOC detection rules.
-
+*Part of the [cybersecurity portfolio](https://github.com/your-username) — see also: Windows Security Log Analyzer · IOC Enrichment & Threat Intelligence Engine · Network Security Monitoring & SOC Simulation Engine*
