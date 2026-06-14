@@ -28,6 +28,7 @@ This project documents the end-to-end build-out of a Microsoft Sentinel SOC envi
 - [x] Microsoft Defender XDR connected
 - [x] Data ingestion pipelines configured
 - [x] Log sources validated and normalised
+- [x] Ubuntu integration
 
 ### Phase 2 — Detection Engineering (Upcoming)
 - [ ] Custom KQL analytic rules
