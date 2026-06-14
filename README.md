@@ -14,8 +14,8 @@ This project documents the end-to-end build-out of a Microsoft Sentinel SOC envi
 | Log Analytics Workspace | ✅ Configured |
 | Microsoft Sentinel | ✅ Enabled |
 | Microsoft Defender XDR | ✅ Connected |
-| Data Connectors & Ingestion | 🔄 In progress |
-| Detection Rules (Analytic Rules) | 🔜 Upcoming |
+| Data Connectors & Ingestion | ✅ Connected |
+| Detection Rules (Analytic Rules) | ✅ Connected |
 | Threat Hunting Queries (KQL) | 🔜 Upcoming |
 | SOC Investigation Playbooks | 🔜 Upcoming |
 
