@@ -4,9 +4,7 @@
 
 ## Overview
 
-This project documents the end-to-end build-out of a Microsoft Sentinel SOC environment on Azure. The current phase focuses on infrastructure provisioning and operational log ingestion, including an Ubuntu Linux virtual machine integrated via Azure Arc and Azure Monitor Agent (AMA), with Syslog events actively flowing into Log Analytics and Microsoft Sentinel.
-
-Upcoming phases will introduce KQL-based detection rules, custom analytic rules, threat hunting playbooks, and simulated SOC investigations.
+This project documents the end-to-end build-out of a Microsoft Sentinel SOC environment on Azure. The current phase focuses on infrastructure provisioning, log ingestion configuration, and validation of telemetry from an Azure Arc-enabled Linux machine. Ubuntu-based Syslog data is now actively flowing into Microsoft Sentinel via Azure Monitor Agent and Data Collection Rules. Upcoming phases will introduce KQL-based detection rules, custom analytic rules, threat hunting workflows, and simulated SOC investigations.
 
 ## Environment
 
