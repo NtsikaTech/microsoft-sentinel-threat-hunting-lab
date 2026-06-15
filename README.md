@@ -53,7 +53,7 @@ This project documents the end-to-end build-out of a Microsoft Sentinel SOC envi
 
 ## Purpose
 
-This lab demonstrates practical SOC engineering skills including detection rule development, threat hunting, and incident investigation using Microsoft Sentinel and Microsoft Defender XDR in a cloud-native environment. Each phase is documented with configuration notes, rationale, and lessons learned — with SOAR automation and MITRE ATT&CK coverage built in throughout.
+This lab demonstrates practical SOC engineering skills including detection rule development, threat hunting, and incident investigation using Microsoft Sentinel and Microsoft Defender XDR in a cloud-native environment. Each phase is documented with configuration notes, rationale, and lessons learned  with SOAR automation and MITRE ATT&CK coverage built in throughout.
 
 ---
 
