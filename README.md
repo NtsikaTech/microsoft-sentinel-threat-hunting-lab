@@ -31,6 +31,7 @@ This project documents the end-to-end build-out of a Microsoft Sentinel SOC envi
 - [x] Ubuntu integration
 
 ### Phase 2 — Detection Engineering (Upcoming)
+- [x] Initial Linux authentication hunting query
 - [ ] Custom KQL analytic rules
 - [ ] MITRE ATT&CK–mapped detections
 - [ ] Alert tuning and false-positive reduction
