@@ -29,18 +29,18 @@ The project follows a **learn → build → investigate → document** approach.
 
 | Component | Status |
 |---|---|
-| Azure Resource Group | ✅ Configured |
-| Log Analytics Workspace | ✅ Configured |
-| Microsoft Sentinel | ✅ Enabled |
-| Microsoft Defender XDR | ✅ Connected |
-| Azure Arc | ✅ Ubuntu machine onboarded |
-| Azure Monitor Agent | ✅ Installed |
-| Data Collection Rules | ✅ Configured |
-| Linux Syslog Ingestion | ✅ Operational |
-| KQL Threat Hunting | 🟢 Active |
-| Detection Engineering | 🟢 Active |
-| SOC Investigation | 🔜 Upcoming |
-| SOAR Automation | 🔜 Upcoming |
+| Azure Resource Group |  Configured |
+| Log Analytics Workspace |  Configured |
+| Microsoft Sentinel |  Enabled |
+| Microsoft Defender XDR |  Connected |
+| Azure Arc |  Ubuntu machine onboarded |
+| Azure Monitor Agent |  Installed |
+| Data Collection Rules |  Configured |
+| Linux Syslog Ingestion |  Operational |
+| KQL Threat Hunting |  Active |
+| Detection Engineering |  Active |
+| SOC Investigation |  Upcoming |
+| SOAR Automation |  Upcoming |
 
 ## Architecture
 
