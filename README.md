@@ -14,7 +14,7 @@ The project follows a **learn → build → investigate → document** approach.
 
 ## Objectives
 
-- Develop practical Microsoft Azure knowledge relevant to entry-level cybersecurity roles
+- Develop practical Microsoft Azure knowledge relevant to entry level cybersecurity roles
 - Understand cloud security architecture and Azure resource management
 - Build and operate a Microsoft Sentinel SIEM environment
 - Collect and analyse Linux security telemetry
